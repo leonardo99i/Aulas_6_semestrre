@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo da Página</title>
+</head>
+<body>
+    <table border="solid">
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Tais</td>
+            <td>Santos</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>Simone</td>
+            <td>Henkel</td>
+            <td>35</td>
+        </tr>
+        <caption>Tabela de cadastro</caption>
+        <tr>
+            <td colspan="3">
+                <center>
+                    <h6>Meu rodapé</h6>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <section>
+        <header>
+            <h1>Formulário de Inscrição</h1>
+        </header>
+        <hr>
+        <form id="cadastro">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                Inclua os inputs relacionados aos dados pessoais aqui.
+                <br>
+                <h3>Nome: <input type="text" placeholder="Digite aqui seu Nome:" ></h3>
+                <h3>Idade: <input min="0" type="number" placeholder="Digite aqui sua idade:" ></h3>
+                <h3>Data de Nascimento: <input type="date" placeholder="mm/dd/yyyy" ></h3>
+                <h3>CPF: <input maxlength="9" type="number" placeholder="Digite aqui seu cpf:" ></h3>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
