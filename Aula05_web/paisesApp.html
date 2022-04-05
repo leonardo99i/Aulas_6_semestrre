@@ -1,0 +1,23 @@
+<html ng-app="paisesAPP">
+    <head>
+        <style>
+            table, td{
+                border: 1px solid grey;
+            }
+        </style>
+        <meta charset="utf-8">
+        <script src="angular.js"></script>
+        <script src="paisesAPP.js"></script>
+        <title>Países</title>        
+    </head>
+    <body>
+        <div ng-repeat="PaisesController">
+            <table>
+                <tr ng-repeat="x in capitais">
+                <td ng-if="$odd" style="background-color: #aaaaaa">
+                {{x.capital}}</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
