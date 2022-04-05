@@ -1,0 +1,4 @@
+https://code.angularjs.org/1.8.2/angular.min.js
+
+Baixar o angular.js
+e o angular.min.js
