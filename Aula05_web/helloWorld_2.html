@@ -6,13 +6,13 @@
             var app = angular.module("helloWorld", []);
             //Criação da controller
             app.controller("HelloController", function ($scope){
-                $scope.boasvindas = "Hello, World";
+                $scope.boasvindas = 'Hello, World';
             });
         </script>
     </head>
     <body>
         <div ng-controller = 'HelloController'>
-            <input ng-module1 = 'boasvindas';>
+            <input ng-model = 'boasvindas'>
             <p style="text-align: center;">{{boasvindas}}</p>
         </div>
     </body>
